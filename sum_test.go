@@ -8,3 +8,7 @@ func TestSum(t * testing.T) {
 		t.Error("The result must be 5")
 	} 
 }
+
+func TestMain(t * testing.T) {
+	main() 
+}
